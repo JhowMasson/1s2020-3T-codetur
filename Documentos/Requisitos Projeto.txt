@@ -1,0 +1,17 @@
+-Ao clicar na passagem, irá redirecionar para uma outra página, onde informará mais ainda as especificações do pacote (fotos, descrição do local, etc).
+-Se quiser confirmar o pacote tera um botão que ira ligar automaticamente para a central
+-Não sera preciso estar logado para visualizar os pacotes
+-No sistema web, apenas os Administradores poderam ter acesso
+-No sistema web, haverá um usuário padrão como forma de acesso
+-Filtro para pesquisas(Pelo nome do país, e pela data), no próprio aplicativo
+-Os pacotes serão separados pelo nome do país
+-Os clientes poderam enviar um feedback
+-A compra poderá ser feita pelo e-mail, com um item aparecendo na tela, já com o e-mail do vendedor
+-Quando listado, deverá aparecer apenas os pacotes ativos
+-Publico-alvo será programadores, e técnicos em Redes, de 20-50 anos
+-Aplicativo será projetado para android
+
+-----------------------------------------------------------------------------
+-Podera ser adicionado o sistema de feeedback no aplicativo--------------||||
+-(Mais tarde havera o sistema de compras, e o cancelamento de uma viagem)||||
+-----------------------------------------------------------------------------
