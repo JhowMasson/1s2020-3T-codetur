@@ -1,0 +1,13 @@
+	REQUISITOS FUNCIONAIS DO PROJETO CODETUR
+
+RF001-Listar os pacotes (ADMIN/CLIENTE)
+RF002-Filtrar os pacotes por país e mês
+RF003-Cadastrar os pacotes (ADMIN)
+RF004-Atualizar os pacotes (ADMIN)
+RF005-Fazer login
+RF006-Alterar status dos pacotes (ADMIN)
+RN001-Listar somente os pacotes ativos
+RNF001-Identidade visual (Logo da marca)
+RNF002-Tela de listagem simples
+RNF003-A senha deve conter no mínimo 8 caracteres com letras e números
+RN002-Somente usuários ADMIN podem acessar o sistema Web	
