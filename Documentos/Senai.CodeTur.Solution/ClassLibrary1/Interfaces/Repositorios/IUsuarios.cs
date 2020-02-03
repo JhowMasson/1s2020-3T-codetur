@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Senai.CodeTur.Dominio.Entidades;
 
 namespace Senai.CodeTur.Dominio.Interfaces.Repositorios
 {
-    class IUsuarios
+    public interface IUsuarios
     {
+        UsuarioDominio EfetuarLogin(string email, string senha);
     }
 }

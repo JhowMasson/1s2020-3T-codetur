@@ -3,7 +3,7 @@
 -Não sera preciso estar logado para visualizar os pacotes
 -No sistema web, apenas os Administradores poderam ter acesso
 -No sistema web, haverá um usuário padrão como forma de acesso
--Filtro para pesquisas(Pelo nome do país, e pela data), no próprio aplicativo
+-Filtro para pesquisas(Pelo nome do país, pela data e pelo mês de saída), no próprio aplicativo
 -Os pacotes serão separados pelo nome do país
 -Os clientes poderam enviar um feedback
 -A compra poderá ser feita pelo e-mail, com um item aparecendo na tela, já com o e-mail do vendedor

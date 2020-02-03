@@ -13,23 +13,32 @@ namespace Senai.CodeTur.Dominio.Entidades
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        [Column("Nome", TypeName = "varchar(85)")]
-        public string Nome { get; set; }
+        [Required]
+        [Column("Titulo", TypeName = "varchar(250)")]
+        public string Titulo { get; set; }
 
+        [Required]
         [Column("Pais", TypeName = "varchar(60)")]
         public string Pais { get; set; }
 
-        [Column("Descricao", TypeName = "varchar(600)")]
+        [Required]
+        [Column("Descricao", TypeName = "TEXT")]
         public string Descricao { get; set; }
 
-        [Column("DataInicio", TypeName = "datetime")]
-        public string DataInicio { get; set; }
+        [Required]
+        [DataType(DataType.Date)]
+        public DateTime DataInicio { get; set; }
 
-        [Column("DataFim", TypeName = "datetime")]
-        public string DataFim { get; set; }
+        [Required]
+        [DataType(DataType.Date)]
+        public DateTime DataFim { get; set; }
 
+        [Required]
         [Column("Imagem", TypeName = "varchar(350)")]
         public string Imagem { get; set; }
-                
+           
+        
+        [Column("Ativo", TypeName = "bit")]
+        public bool Ativo { get; set; }
     }
 }
