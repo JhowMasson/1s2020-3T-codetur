@@ -17,7 +17,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senai.CodeTur.Dominio", "Cl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senai.CodeTur.Infra.Data", "Senai.CodeTur.Infra.Data\Senai.CodeTur.Infra.Data.csproj", "{CFF2DD69-BC90-46D5-AB2D-11F62AA1B00B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senai.CodeTur.Servico", "Senai.CodeTur.Servico.csproj\Senai.CodeTur.Servico.csproj", "{BA7CF259-087D-47BB-8A13-10C331BE7EFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Senai.CodeTur.Servico", "Senai.CodeTur.Servico.csproj\Senai.CodeTur.Servico.csproj", "{BA7CF259-087D-47BB-8A13-10C331BE7EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senai.CodeTur.Teste.XUnit.Repositorios", "Senai.CodeTur.Teste.XUnit.Repositorios\Senai.CodeTur.Teste.XUnit.Repositorios.csproj", "{2280A395-2F18-4B7D-9B0C-FC1C1956B33B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Senai.CodeTur.Web.Api", "Senai.CodeTur.Web.Api\Senai.CodeTur.Web.Api.csproj", "{38ACFD38-89F4-43AF-A352-4C0E3925F17D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +41,14 @@ Global
 		{BA7CF259-087D-47BB-8A13-10C331BE7EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA7CF259-087D-47BB-8A13-10C331BE7EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA7CF259-087D-47BB-8A13-10C331BE7EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2280A395-2F18-4B7D-9B0C-FC1C1956B33B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2280A395-2F18-4B7D-9B0C-FC1C1956B33B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2280A395-2F18-4B7D-9B0C-FC1C1956B33B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2280A395-2F18-4B7D-9B0C-FC1C1956B33B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38ACFD38-89F4-43AF-A352-4C0E3925F17D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38ACFD38-89F4-43AF-A352-4C0E3925F17D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38ACFD38-89F4-43AF-A352-4C0E3925F17D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38ACFD38-89F4-43AF-A352-4C0E3925F17D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +57,8 @@ Global
 		{7902FFEB-CC29-429E-9717-951068FFA731} = {32C3898C-E429-47CC-9405-7088B287F458}
 		{CFF2DD69-BC90-46D5-AB2D-11F62AA1B00B} = {22AD5759-3A00-43F0-8DAF-45223B2870A8}
 		{BA7CF259-087D-47BB-8A13-10C331BE7EFE} = {6E6DC519-5A74-4F77-ABFC-365E24DB7C45}
+		{2280A395-2F18-4B7D-9B0C-FC1C1956B33B} = {49B03F67-1F6F-4D91-8F27-12D4DF7ED7D3}
+		{38ACFD38-89F4-43AF-A352-4C0E3925F17D} = {4E354BCE-D2B4-4251-855E-0E64F6231EF0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B32AF910-D7FA-4C90-A09F-96DE3A40BBE0}

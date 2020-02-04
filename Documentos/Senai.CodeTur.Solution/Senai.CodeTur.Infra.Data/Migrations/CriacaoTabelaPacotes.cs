@@ -15,7 +15,7 @@ namespace Senai.CodeTur.Infra.Data.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Titulo = table.Column<string>(type: "varchar(250)", nullable: false),
                     Imagem = table.Column<string>(type: "varchar(350)", nullable: false),
                     Descricao = table.Column<string>(type: "TEXT", nullable: false),
