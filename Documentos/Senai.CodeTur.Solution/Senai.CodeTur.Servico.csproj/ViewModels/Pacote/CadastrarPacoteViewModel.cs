@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Senai.CodeTur.Servico.ViewModels.Pacote
 {
-    class CadastrarPacoteViewModel
+    public class CadastrarPacoteViewModel
     {
         [Required(ErrorMessage = "Informe o título do pacote")]
         public string Titulo { get; set; }
